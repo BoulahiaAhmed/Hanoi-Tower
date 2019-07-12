@@ -1,5 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
+
+                                /* THIS SOLUTION WAS CREATED BY AHMED BOULAHIA*/
+
+
 void initial(int N , char **M)
 {
     int i,j,k; int T[20];
@@ -20,8 +24,6 @@ k++;
     }
 
 }
-
-
 
 
 void hanoi (int N,char**M,char dep,char arr,char aux,int NF )
@@ -77,16 +79,6 @@ affichage(NF,M);
 
        hanoi(N-1,M,aux,arr,dep,NF);}
     }
-
-
-
-
-
-
-
-
-
-
 
 
 void affichage(int N, char **M)
